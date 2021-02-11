@@ -1,0 +1,318 @@
+@media screen and (max-width: 1078px){
+  header.banner .logo-responsive{
+    display: block;
+  }
+
+  .nav-toggle {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    padding: 1rem 0;
+    float: right;
+    text-indent: -9999px;
+    display: block;
+    background: url(../images/icon-menu.svg) no-repeat;
+    background-size: cover;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .ubermenu-responsive-toggle {
+    font-size: 1.25rem !important;
+    text-transform: uppercase !important;
+    color: $white !important;
+  }
+
+  header.banner .container{
+    display: block;
+  }
+
+  header.banner nav.nav-primary {
+    width: 100%;
+  }
+
+  header.banner nav.nav-primary li{
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+
+  header.banner nav.nav-primary>ul>li+li{
+    margin-left: 0;
+    margin-top: .5rem;
+  }
+
+  footer.content-info span.whatsapp{
+    background-size: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    padding-left: 3rem;
+  }
+
+  .home .featured .img-wrapper h4 {
+    font-size: 1.5rem;
+  }
+
+  .home .featured p,
+  .home .ads-info .text-center>p{
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .home .featured article .dialog>div span{
+    display: inline;
+  }
+
+  .home .featured article .dialog>div h3 {
+      font-size: 4rem;
+      position: relative;
+      left: 0;
+      top: 0;
+  }
+
+  .home .featured article.item .dialog, .home .featured article.item .text, .page-template-shop-search article.item .dialog, .page-template-shop-search article.item .text, .page-template-shop article.item .dialog, .page-template-shop article.item .text, .search-results article.item .dialog, .search-results article.item .text{
+    width: 100%;
+    margin: 0 auto 2rem;
+    text-align: left;
+  }
+
+  .home .featured article.item .dialog, .page-template-shop-search article.item .dialog, .page-template-shop article.item .dialog, .search-results article.item .dialog{
+    width: 12rem;
+    position: relative;
+  }
+
+  .home .featured article.item, .page-template-shop article.item{
+    width: 80%;
+    margin: 0 auto 4rem;
+  }
+
+  .home .featured article.item img, .page-template-shop-search article.item img, .page-template-shop article.item img, .search-results article.item img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 960px){
+
+  .ubermenu-responsive-toggle {
+    font-size: 1.25rem !important;
+    text-transform: uppercase !important;
+    color: $white !important;
+  }
+
+  h2.dialog,
+  .bg-green h2, .bg-orange h2, .bg-purple h2{
+    font-size: 1.5rem;
+  }
+
+  .page-template-quero-anunciar .info p, .page-template-quero-predio .info p{
+    font-size: 1.2rem;
+  }
+
+  .home .ads-info .search-form a.search-submit, .home .ads-info a.btn, .search-form .home .ads-info a.search-submit{
+    max-width: 100%;
+    font-size: 1rem;
+
+  }
+
+  .home .search-section label{
+    margin-bottom: 0;
+  }
+
+  // .home .featured article .dialog{
+  //   padding-top: 2rem;
+  // }
+
+  .ads-info{
+    text-align: center;
+  }
+
+  .home .ads-info .dialogs p{
+    margin: 0 auto 2rem;
+  }
+
+  .home .ads-info .dialogs h2{
+    margin: 0 auto 1rem;
+  }
+
+  .page-template-contato .col-md-4 img{
+    margin-top: 2rem;
+  }
+
+  .bg-green .text-left.text-sm-right{
+    margin-top: 1rem;
+  }
+
+  .filters .search-form{
+    margin-top: 1rem;
+  }
+
+  .filters label {
+      width: 79%;
+      margin-bottom: 0;
+  }
+
+  .ads table {
+      overflow-x: scroll;
+      box-sizing: border-box;
+      display: block;
+  }
+
+  .ads-boxes{
+    margin-top: 3rem;
+  }
+
+  .ads-boxes .slick-arrow{
+    top: 25rem;
+  }
+
+  .ads-buttons div{
+    display: block;
+
+    a.btn{
+      display: block;
+      margin: 0 auto 1rem;
+    }
+  }
+
+  .woocommerce-cart-form .button.continue{
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .home .featured article.item, .page-template-shop article.item{
+    margin-bottom: 4rem;
+  }
+
+  //Footer
+
+  footer.content-info{
+    text-align: center;
+  }
+
+  footer.content-info img{
+    margin: 2rem auto;
+  }
+
+  .header-meta-menu {
+    text-align: center;
+  }
+
+  footer.content-info p {
+    font-size: 1.25rem;
+  }
+
+  footer.content-info span.whatsapp {
+    font-size: 1rem;
+    background-position: left center;
+    margin-bottom: 10px;
+  }
+
+  footer.content-info span.contact_email {
+    font-size: 1rem;
+  }
+
+  span.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 1rem 0 0;
+  }
+
+  .btn {
+    white-space: unset;
+  }
+
+  .tab,
+  .btn-add{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .pagination>ul{
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .page-template-faq .questions h3{
+    line-height: 1.2;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .woocommerce a.button.continue{
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .woocommerce-page .col2-set .col-1, .woocommerce-page .col2-set .col-2, .woocommerce .col2-set .col-2{
+    width: 100%;
+  }
+
+  .woocommerce-additional-fields{
+    margin-top: 2rem;
+  }
+
+  //Cadastrarse - Registration
+  .page-id-122{
+    h4 {
+      margin-top: 1rem;
+      margin-bottom: 0;
+      padding: 0;
+    }
+
+    form textarea{
+      padding-top: 1rem;
+    }
+
+    form input[type=submit]{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .home .featured .variations_form.cart td.label,
+  .page-template-shop-search .variations_form.cart td.label,
+  .page-template-shop .variations_form.cart td.label,
+  .search-results .variations_form.cart td.label,
+  .home .featured .variations_form.cart td.value,
+  .page-template-shop-search .variations_form.cart td.value,
+  .page-template-shop .variations_form.cart td.value,
+  .search-results .variations_form.cart td.value{
+    display: block;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+  }
+
+  .home .featured .reset_variations,
+  .page-template-shop-search .reset_variations,
+  .page-template-shop .reset_variations,
+  .search-results .reset_variations{
+    bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .ubermenu-responsive-toggle{
+    text-align: center;
+  }
+
+  .home .slider-home img{
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .home .marquee{
+    bottom: 1.75rem;
+    font-size: .6rem;
+    left: 0rem;
+    right: 0rem;
+  }
+
+
+
+}

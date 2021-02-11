@@ -1,0 +1,136 @@
+@media (min-width: 1200px){
+  .container {
+      max-width: 1366px;
+  }
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+  &.scrolled {
+    padding-top: 90px;
+
+    header.banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+
+main.main{
+  padding: 0;
+}
+
+.bg-orange{
+  background : linear-gradient(-60deg, rgba(253, 185, 19, 1) 0%, rgba(249, 159, 28, 1) 16.93%, rgba(249, 159, 28, 1) 47.4%, rgba(244, 121, 32, 1) 72.2%, rgba(240, 78, 35, 1) 100%);
+}
+
+.bg-green{
+  background : linear-gradient(-60deg, rgba(0, 156, 207, 1) 0%, rgba(117, 192, 105, 1) 64.69%, rgba(176, 210, 53, 1) 100%);
+}
+
+.bg-purple{
+  background : linear-gradient(-45deg, rgba(233, 14, 140, 1) 0%, rgba(230, 35, 145, 1) 5.74%, rgba(226, 54, 149, 1) 12.89%, rgba(225, 65, 151, 1) 20.25%, rgba(224, 69, 152, 1) 28.09%, rgba(135, 43, 137, 1) 66.85%, rgba(110, 46, 140, 1) 88.76%, rgba(99, 36, 103, 1) 100%);
+}
+
+.bg-orange,
+.bg-green,
+.bg-purple{
+  color: #fff;
+  padding: 2.5rem 0;
+  text-align: center;
+
+  h2{
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+}
+
+h2.dialog{
+  color: #4ab392;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 3.5rem;
+  display: inline-block;
+  width: auto;
+  background: url(../images/icon-dialog-green.svg) no-repeat;
+  background-position: left top;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-size: 42px 47px;
+  height: 2.9375rem;
+  padding-top: .7rem;
+  margin-bottom: 1.5rem;
+
+  &.orange{
+    background-image: url(../images/icon-dialog-orange.svg);
+    color: #f26922;
+  }
+}
+
+.archive.woocommerce-page .woocommerce-products-header__title{
+  color: #4ab392;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+
+a:active,
+a:focus,
+button:focus,
+button:active,
+select:focus,
+select:active,
+input:focus,
+input:active{
+  outline: none;
+}
+
+.pagination{
+  width: 100%;
+  margin: 2rem auto;
+  justify-content: center;
+
+  ul{
+    width: 100%;
+  }
+
+  a,span{
+    background: #98989a;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: .5rem;
+  }
+
+  span{
+    background: #fc6c15;
+  }
+}
+
+.woocommerce-message {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  top: 60px;
+  left: 10%;
+  z-index: 999;
+
+  .button {
+    display: none !important;
+  }
+}

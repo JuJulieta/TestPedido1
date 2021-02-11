@@ -1,0 +1,24 @@
+.woocommerce a.remove {
+  font-size: 1em;
+}
+
+.wc_add_to_cart_with_variations {
+  .content-summary {
+    display: none;
+  }
+
+  .button {
+    background: #fc6c15;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2.375rem;
+    width: 48%;
+    border-radius: 30px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

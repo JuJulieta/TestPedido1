@@ -1,0 +1,50 @@
+.shop, .shop-search, .search {
+  .property_filter_selector {
+    .property_filter_selector_trigger {
+      width: 100%;
+      border-radius: 30px;
+      padding-left: 1rem;
+      height: 3.25rem;
+      border: 3px solid #d7d7d7;
+      line-height: 3rem;
+      color: #d7d7d7;
+      color: #212529;
+      cursor: pointer;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .property_filter_selector_dropdown {
+      width: 94%;
+      padding-left: 1rem;
+      height: 150px;
+      border: 3px solid #d7d7d7;
+      color: #d7d7d7;
+      overflow-y: scroll;
+      margin-top: 5px;
+      position: absolute;
+      z-index: 10;
+      background: #fff;
+      display: none;
+      padding: 10px 20px;
+
+      ul {
+        list-style-type: none;
+        padding: 0 0 0 30px;
+        margin: 0;
+        color: #212529;
+      }
+    }
+  }
+
+  .property_filter_searchbutton {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 3px solid #d7d7d7;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+  }
+}
