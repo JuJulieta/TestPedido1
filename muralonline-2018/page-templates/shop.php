@@ -83,7 +83,7 @@
               <div>
                 <span>POR</span><span>R$</span><h3><?php $_product = wc_get_product( $post->ID ); echo $_product->get_price(); ?></h3>
               </div>
-              <h4>Monitor/Trimestre</h4>
+              <h4>MENSAL</h4>
             </div>
           </div>
 
